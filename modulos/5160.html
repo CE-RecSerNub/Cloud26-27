@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guía didáctica del Módulo 5160: Fundamentos y configuración inicial de servicios en la nube. Curso de especialización de FP.">
+    <title>Módulo 5160 - Fundamentos y Configuración Inicial - Especialización FP</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+    <div class="bg-glow"></div>
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="../index.html" class="nav-brand">
+                CLOUD<span>CE</span>
+            </a>
+            <div class="nav-links">
+                <a href="../index.html" class="nav-link">Inicio</a>
+                <a href="../index.html#modulos" class="nav-link">Módulos</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cabecera de Módulo -->
+    <header class="module-header container">
+        <a href="../index.html" class="back-link">← Volver al inicio</a>
+        <div class="module-code">Módulo Profesional 5160</div>
+        <h1 class="module-header-title">Fundamentos y configuración inicial de servicios en la nube</h1>
+        <div class="badge-group">
+            <span class="badge badge-primary">Duración: 70 horas</span>
+            <span class="badge badge-primary">Créditos: 8 ECTS</span>
+            <span class="badge">Especialidad: Sistemas y Aplicaciones Informáticas</span>
+        </div>
+    </header>
+
+    <!-- Layout Detallado -->
+    <div class="container detail-layout">
+        
+        <!-- Contenido Principal -->
+        <main>
+            <section style="margin-bottom: 40px;">
+                <h2 style="font-size: 1.8rem; margin-bottom: 16px; font-family: var(--font-header);">Guía Didáctica</h2>
+                <p style="color: var(--text-secondary); margin-bottom: 24px;">Este módulo introduce los conceptos clave del Cloud Computing, estableciendo la diferencia entre servicios tradicionales localizados (on-premise) y soluciones flexibles en la nube. Abarca modelos de despliegue y de servicio, gobernanza inicial mediante consolas y líneas de comando (CLIs), jerarquías de recursos, controles de acceso IAM basados en mínimo privilegio, y monitorización de costes y cuotas de uso.</p>
+            </section>
+
+            <!-- Acordeones de RAs y CEs -->
+            <section style="margin-bottom: 60px;">
+                <h2 style="font-size: 1.5rem; margin-bottom: 24px; font-family: var(--font-header);">Resultados de Aprendizaje y Criterios de Evaluación</h2>
+                <div class="ra-list">
+                    
+                    <!-- RA 1 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 1.</strong> Evalúa la localización de la infraestructura física de TI (on-premise vs cloud)</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se ha definido el concepto de infraestructura de nube frente a local.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se ha descrito el funcionamiento e implicación en el modelo de negocio.</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se han analizado los beneficios de la nube con respecto a on-premise.</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se ha diferenciado entre infraestructura y arquitectura de nube.</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se han determinado los componentes hardware/software del aprovisionamiento virtual.</li>
+                                    <li class="ce-item"><span class="ce-bullet">f)</span> Se han especificado servidores, almacenamiento, redes y software de hipervisión.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RA 2 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 2.</strong> Escoge el modelo de despliegue de infraestructura más apropiado</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se ha descrito y esquematizado el modelo de nube pública.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se ha descrito y esquematizado el modelo de nube privada.</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se ha descrito y esquematizado el modelo de nube híbrida.</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se ha valorado la mejor configuración según las necesidades organizativas.</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se ha diferenciado entre nube híbrida y entornos multinube.</li>
+                                    <li class="ce-item"><span class="ce-bullet">f)</span> Se han analizado las necesidades de gobernanza en entornos híbridos y multinube.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RA 3 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 3.</strong> Reconoce los principales modelos de servicio (SaaS, PaaS, IaaS, Serverless)</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se ha detallado el modelo Software as a Service (SaaS).</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se ha detallado el modelo Platform as a Service (PaaS).</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se ha detallado el modelo Infrastructure as a Service (IaaS).</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se ha detallado el modelo de arquitectura sin servidor (Serverless).</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se han comparado los modelos, definiendo el alcance de control del cliente.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RA 4 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 4.</strong> Prepara las interfaces de acceso y uso de la nube (Web, CLI, SDK)</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se han efectuado conexiones autenticadas a la interfaz gráfica web.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se han configurado idiomas, aspectos y preferencias en la consola.</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se han instalado y autenticado interfaces de línea de comandos (CLI) en local o servidor.</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se han administrado las configuraciones y perfiles a través de la CLI.</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se han descargado e integrado las librerías cliente (SDK) mediante gestores de dependencias.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RA 5 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 5.</strong> Establece jerarquías de recursos para su gobernanza</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se han creado nodos raíz de organización de la entidad empresarial.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se han creado niveles intermedios de agrupación (carpetas) y aplicado políticas.</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se han creado contenedores de recursos (proyectos/suscripciones) con sus restricciones.</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se han implementado políticas comunes (etiquetado obligado, bloqueo de regiones).</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se ha configurado la herencia automática de directivas para facilitar el control global.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RA 6 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 6.</strong> Administra identidades y controles de acceso seguros (IAM)</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se han definido los objetivos y componentes clave de IAM.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se han creado identidades de usuarios y grupos con sus accesos.</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se han sincronizado o federado identidades con directorios externos locales.</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se han activado políticas de complejidad de contraseñas y doble factor (MFA).</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se han creado cuentas de servicio efímeras siguiendo el principio JIT (Just in Time).</li>
+                                    <li class="ce-item"><span class="ce-bullet">f)</span> Se han diseñado roles personalizados cuando los predefinidos eran insuficientes.</li>
+                                    <li class="ce-item"><span class="ce-bullet">g)</span> Se han otorgado permisos siguiendo los principios de menor privilegio y continuidad.</li>
+                                    <li class="ce-item"><span class="ce-bullet">h)</span> Se han verificado las directivas de seguridad resultantes.</li>
+                                    <li class="ce-item"><span class="ce-bullet">i)</span> Se han almacenado secretos y claves en bóvedas seguras (Vaults / Secrets Managers).</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RA 7 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 7.</strong> Reconoce el modelo de responsabilidad compartida</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se ha diferenciado entre la seguridad "de la nube" y "en la nube".</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se ha identificado el alcance de protección física e infraestructura del proveedor.</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se han definido las responsabilidades del cliente (parches SO, firewall, datos, IAM).</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se han analizado los factores que alteran la responsabilidad en cada caso.</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se han determinado controles heredados, compartidos y propios de la organización.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RA 8 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 8.</strong> Configura la facturación, presupuestos y control de costes</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se han clasificado etiquetas (tags) para auditoría de centros de coste.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se han creado cuentas de facturación asociadas a métodos de pago oficiales.</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se han utilizado calculadoras web oficiales para estimaciones iniciales.</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se han previsto gastos según cargas proyectadas.</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se han configurado alertas de presupuesto (Budgets) con notificaciones y acciones.</li>
+                                    <li class="ce-item"><span class="ce-bullet">f)</span> Se han evaluado los costes diarios y mensuales en consolas de análisis (Cost Explorer).</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RA 9 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 9.</strong> Administra las cuotas de uso y activa las APIs necesarias</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se han planificado las cuotas requeridas previas al despliegue.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se han respetado los límites predeterminados por el fabricante.</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se han configurado límites específicos en las APIs consumidas.</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se han solicitado incrementos o liberaciones de cuota al proveedor.</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se han activado exclusivamente las APIs de servicio requeridas para ciberseguridad.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Rúbrica Interactiva -->
+            <section class="rubric-section">
+                <h2 style="font-size: 1.5rem; margin-bottom: 12px; font-family: var(--font-header);">Rúbrica interactiva de Evaluación</h2>
+                <p class="rubric-intro">Haz clic en cada celda para marcar y registrar el nivel de logro del alumno por cada Resultado de Aprendizaje.</p>
+                
+                <div class="rubric-table-wrapper">
+                    <table class="rubric-table">
+                        <thead>
+                            <tr>
+                                <th>Resultado de Aprendizaje</th>
+                                <th>Insuficiente (1-4)</th>
+                                <th>Suficiente (5)</th>
+                                <th>Notable (6-8)</th>
+                                <th>Sobresaliente (9-10)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="ra-cell">RA1. Infraestructura Física</td>
+                                <td class="level-cell">Confunde la infraestructura local con la nube. Incapaz de clasificar componentes físicos/virtuales.</td>
+                                <td class="level-cell">Identifica la diferencia básica entre nube y servidor local, clasificando componentes bajo guía.</td>
+                                <td class="level-cell">Describe con propiedad la infraestructura de nube, sus componentes y el modelo de negocio básico.</td>
+                                <td class="level-cell">Analiza con soltura diferencias complejas de arquitectura y defiende mejoras de migración.</td>
+                            </tr>
+                            <tr>
+                                <td class="ra-cell">RA2. Modelos de Despliegue</td>
+                                <td class="level-cell">Mezcla conceptos de nube pública, privada e híbrida. No sabe identificar multinube.</td>
+                                <td class="level-cell">Identifica y describe los tres tipos básicos de nube con ayuda de esquemas dados.</td>
+                                <td class="level-cell">Diferencia adecuadamente entre híbrido y multinube, y sugiere modelos según casos prácticos estándar.</td>
+                                <td class="level-cell">Diseña y justifica arquitecturas complejas de nube híbrida o multinube, aportando soluciones de gobernanza.</td>
+                            </tr>
+                            <tr>
+                                <td class="ra-cell">RA3. Modelos de Servicio</td>
+                                <td class="level-cell">Confunde conceptos de IaaS, PaaS, SaaS y Serverless en la práctica.</td>
+                                <td class="level-cell">Reconoce los modelos básicos de servicio (IaaS, PaaS, SaaS) a partir de descripciones teóricas.</td>
+                                <td class="level-cell">Clasifica y compara con precisión casos de uso de IaaS, PaaS, SaaS y Serverless, escogiendo el adecuado.</td>
+                                <td class="level-cell">Diseña la composición de una aplicación dividiéndola en microservicios sobre la combinación óptima de modelos.</td>
+                            </tr>
+                            <tr>
+                                <td class="ra-cell">RA4. Interfaces de Acceso</td>
+                                <td class="level-cell">Incapaz de acceder a la consola o instalar la CLI local. No entiende qué son las APIs.</td>
+                                <td class="level-cell">Accede a la consola web y realiza configuraciones básicas guiadas de idioma o región.</td>
+                                <td class="level-cell">Instala e inicializa la interfaz de comandos (CLI) de forma autónoma, realiza consultas y usa gestores de paquetes.</td>
+                                <td class="level-cell">Gestiona perfiles de configuración avanzados de CLI, automatiza tareas sencillas mediante scripts CLI e integra SDKs.</td>
+                            </tr>
+                            <tr>
+                                <td class="ra-cell">RA5. Jerarquía de Recursos</td>
+                                <td class="level-cell">Crea recursos sueltos de forma desordenada sin estructura jerárquica ni etiquetado.</td>
+                                <td class="level-cell">Crea nodos organizativos y proyectos básicos siguiendo un manual paso a paso.</td>
+                                <td class="level-cell">Diseña una estructura de carpetas y proyectos organizada para una empresa, configurando herencia de políticas.</td>
+                                <td class="level-cell">Desarrolla una estrategia integral de gobernanza jerárquica con políticas restrictivas automáticas y taxonomía estricta.</td>
+                            </tr>
+                            <tr>
+                                <td class="ra-cell">RA6. IAM y Seguridad</td>
+                                <td class="level-cell">Asigna credenciales de administrador global a programas o usuarios sin ningún control.</td>
+                                <td class="level-cell">Crea usuarios de forma manual en el directorio y les asigna roles básicos predefinidos.</td>
+                                <td class="level-cell">Implementa MFA, políticas de contraseña y gestiona cuentas de servicio limitadas bajo el principio de menor privilegio.</td>
+                                <td class="level-cell">Configura federaciones de identidad externas, implementa políticas avanzadas JIT y asegura contraseñas mediante Key Vaults.</td>
+                            </tr>
+                            <tr>
+                                <td class="ra-cell">RA7. Resp. Compartida</td>
+                                <td class="level-cell">Asume que la seguridad del dato es responsabilidad única del proveedor cloud.</td>
+                                <td class="level-cell">Conoce de forma teórica la diferencia entre la seguridad de la nube y en la nube.</td>
+                                <td class="level-cell">Identifica correctamente los componentes a proteger por el cliente en servicios IaaS y PaaS.</td>
+                                <td class="level-cell">Aplica controles específicos, auditoría y hardening en el SO huésped de acuerdo con el mapa de responsabilidades.</td>
+                            </tr>
+                            <tr>
+                                <td class="ra-cell">RA8. Facturación y Costes</td>
+                                <td class="level-cell">Genera gastos imprevistos y no sabe cómo consultar la factura o crear presupuestos.</td>
+                                <td class="level-cell">Consulta la factura y crea presupuestos con alertas básicas de manera guiada.</td>
+                                <td class="level-cell">Realiza estimaciones de costes con calculadoras oficiales, etiqueta recursos y configura alertas de umbral.</td>
+                                <td class="level-cell">Optimiza costes mediante análisis en Cost Explorer, detecta recursos redundantes y propone estrategias de reserva/ahorro.</td>
+                            </tr>
+                            <tr>
+                                <td class="ra-cell">RA9. Cuotas y APIs</td>
+                                <td class="level-cell">Sufre errores de bloqueo por cuotas excedidas y es incapaz de activar las APIs correctas.</td>
+                                <td class="level-cell">Activa o desactiva APIs siguiendo instrucciones específicas de la práctica.</td>
+                                <td class="level-cell">Planifica y solicita incrementos de cuotas con antelación y restringe APIs innecesarias para reducir superficie de ataque.</td>
+                                <td class="level-cell">Automatiza la monitorización de límites de cuotas de las APIs y configura alertas proactivas ante la proximidad de límites.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <!-- Barra Lateral con Recursos -->
+        <aside>
+            <div class="sidebar-panel">
+                <h3 class="sidebar-title">Recursos Didácticos</h3>
+                <ul class="resource-list">
+                    <li class="resource-item">
+                        <a href="https://aws.amazon.com/es/education/aws-academy/" target="_blank" rel="noopener">
+                            <div class="resource-name">AWS Academy</div>
+                            <div class="resource-desc">Laboratorios de aula controlados bajo cuentas académicas de AWS.</div>
+                        </a>
+                    </li>
+                    <li class="resource-item">
+                        <a href="https://learn.microsoft.com/es-es/training/educator-center/" target="_blank" rel="noopener">
+                            <div class="resource-name">Microsoft Learn</div>
+                            <div class="resource-desc">Rutas académicas y sandboxes interactivos para Azure.</div>
+                        </a>
+                    </li>
+                    <li class="resource-item">
+                        <a href="https://www.cloudskillsboost.google/" target="_blank" rel="noopener">
+                            <div class="resource-name">GCP Skills Boost</div>
+                            <div class="resource-desc">Laboratorios interactivos de Google Cloud con créditos educativos.</div>
+                        </a>
+                    </li>
+                    <li class="resource-item">
+                        <a href="https://docs.aws.amazon.com/es_es/cli/latest/userguide/" target="_blank" rel="noopener">
+                            <div class="resource-name">Guía de la CLI de AWS</div>
+                            <div class="resource-desc">Manual de instalación y configuración de credenciales iniciales.</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026-2027 Portal de Recursos y Servicios en la Nube. Conselleria d'Educació. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="../app.js"></script>
+</body>
+</html>

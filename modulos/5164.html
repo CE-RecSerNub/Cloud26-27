@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guía didáctica del Módulo 5164: Despliegue de servicios administrados en la nube. Curso de especialización de FP.">
+    <title>Módulo 5164 - Servicios Administrados - Especialización FP</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+    <div class="bg-glow"></div>
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="../index.html" class="nav-brand">
+                CLOUD<span>CE</span>
+            </a>
+            <div class="nav-links">
+                <a href="../index.html" class="nav-link">Inicio</a>
+                <a href="../index.html#modulos" class="nav-link">Módulos</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cabecera de Módulo -->
+    <header class="module-header container">
+        <a href="../index.html" class="back-link">← Volver al inicio</a>
+        <div class="module-code">Módulo Profesional 5164</div>
+        <h1 class="module-header-title">Despliegue de servicios administrados en la nube</h1>
+        <div class="badge-group">
+            <span class="badge badge-primary">Duración: 40 horas</span>
+            <span class="badge badge-primary">Créditos: 5 ECTS</span>
+            <span class="badge">Especialidad: Sistemas y Aplicaciones Informáticas</span>
+        </div>
+    </header>
+
+    <!-- Layout Detallado -->
+    <div class="container detail-layout">
+        
+        <!-- Contenido Principal -->
+        <main>
+            <section style="margin-bottom: 40px;">
+                <h2 style="font-size: 1.8rem; margin-bottom: 16px; font-family: var(--font-header);">Guía Didáctica</h2>
+                <p style="color: var(--text-secondary); margin-bottom: 24px;">Este módulo capacita en la automatización del despliegue en la nube. Aprenderán a aprovisionar infraestructuras completas mediante Infraestructura como Código (IaC - Terraform) controlando el archivo de estado, implementar mensajería asíncrona desacoplada basada en colas Pub/Sub, planificar y supervisar la ejecución de trabajos Batch de segundo plano por lotes, y configurar e integrar soluciones de terceros preempaquetadas desde el Marketplace de los proveedores de nube.</p>
+            </section>
+
+            <!-- Acordeones de RAs y CEs -->
+            <section style="margin-bottom: 60px;">
+                <h2 style="font-size: 1.5rem; margin-bottom: 24px; font-family: var(--font-header);">Resultados de Aprendizaje y Criterios de Evaluación</h2>
+                <div class="ra-list">
+                    
+                    <!-- RA 1 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 1.</strong> Automatiza el aprovisionamiento mediante Infraestructura como Código (IaC)</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se han determinado los recursos cloud a desplegar y el estado final deseado.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se ha configurado el motor de IaC (Terraform/Providers) y sus permisos de acceso.</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se han creado plantillas y ficheros declarativos utilizando variables y outputs.</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se ha validado la sintaxis y generado el plan de cambios (dry-run).</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se ha comparado el estado actual frente al estado final teórico de la infraestructura.</li>
+                                    <li class="ce-item"><span class="ce-bullet">f)</span> Se ha ejecutado el despliegue automático, creando y configurando los recursos.</li>
+                                    <li class="ce-item"><span class="ce-bullet">g)</span> Se han auditado y verificado las salidas y aprovisionamientos realizados.</li>
+                                    <li class="ce-item"><span class="ce-bullet">h)</span> Se han documentado las plantillas y subido a un repositorio de código Git.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RA 2 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 2.</strong> Aplica procedimientos de despliegue de colas de mensajería asíncrona</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se ha aprovisionado y habilitado el servicio de mensajería en la plataforma.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se han validado permisos e identidades para publicación y suscripción de mensajes.</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se ha configurado el servicio (temas, suscripciones, reintentos y colas de descarte DLQ).</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se ha monitorizado el flujo de mensajes mediante herramientas de métricas.</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se ha verificado que los mensajes se procesan y entregan correctamente.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RA 3 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 3.</strong> Despliega automatizaciones para ejecución de trabajos por lotes (Batch)</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se ha habilitado el servicio de automatización de tareas en segundo plano.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se ha configurado el trabajo a automatizar (nombre, reintentos, script y salidas).</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se ha planificado la ejecución (ej. cron o eventos de almacenamiento).</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se han analizado los tiempos de ejecución y logs de salida del trabajo por lotes.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RA 4 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 4.</strong> Despliega e integra aplicaciones preempaquetadas del Marketplace</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se han analizado costes, licencias (BYOL) e infraestructura de la solución en el catálogo.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se han configurado los parámetros (máquinas, llaves, red) y permisos de la solución.</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se ha ejecutado la instalación desatendida y monitorizado el proceso de creación.</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se han realizado pruebas de acceso, puertos, logs y funcionamiento de la solución.</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se han documentado tareas de soporte, actualizaciones de parches y limpieza.</li>
+                                    <li class="ce-item"><span class="ce-bullet">f)</span> Se han registrado de forma segura credenciales por defecto, endpoints y accesos.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Rúbrica Interactiva -->
+            <section class="rubric-section">
+                <h2 style="font-size: 1.5rem; margin-bottom: 12px; font-family: var(--font-header);">Rúbrica interactiva de Evaluación</h2>
+                <p class="rubric-intro">Haz clic en cada celda para marcar y registrar el nivel de logro del alumno por cada Resultado de Aprendizaje.</p>
+                
+                <div class="rubric-table-wrapper">
+                    <table class="rubric-table">
+                        <thead>
+                            <tr>
+                                <th>Resultado de Aprendizaje</th>
+                                <th>Insuficiente (1-4)</th>
+                                <th>Suficiente (5)</th>
+                                <th>Notable (6-8)</th>
+                                <th>Sobresaliente (9-10)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="ra-cell">RA1. Infraestructura como Código</td>
+                                <td class="level-cell">Modifica recursos en consola manual alternando con IaC, rompiendo el archivo de estado (drift).</td>
+                                <td class="level-cell">Escribe código Terraform básico para desplegar una instancia y lo ejecuta de manera guiada.</td>
+                                <td class="level-cell">Define múltiples recursos interconectados (VPC, subredes, VM) usando variables, outputs y el plan de ejecución.</td>
+                                <td class="level-cell">Desarrolla módulos Terraform reutilizables, gestiona el estado en backend remoto seguro y documenta en Git.</td>
+                            </tr>
+                            <tr>
+                                <td class="ra-cell">RA2. Mensajería Asíncrona</td>
+                                <td class="level-cell">Configura colas sin permisos, perdiendo mensajes o permitiendo accesos no autorizados.</td>
+                                <td class="level-cell">Aprovisiona una cola sencilla y envía mensajes de prueba desde la consola del proveedor.</td>
+                                <td class="level-cell">Configura temas, suscripciones filtradas y colas con políticas de reintento y Dead Letter Queue (DLQ).</td>
+                                <td class="level-cell">Diseña e integra arquitecturas orientadas a eventos desacopladas con colas, monitorizando latencias.</td>
+                            </tr>
+                            <tr>
+                                <td class="ra-cell">RA3. Trabajos por Lotes (Batch)</td>
+                                <td class="level-cell">Ejecuta scripts de larga duración en VMs estándar sin control de fallos ni programador.</td>
+                                <td class="level-cell">Crea un trabajo por lotes simple de ejecución manual a partir de una plantilla provista.</td>
+                                <td class="level-cell">Configura y planifica trabajos Batch cronometrados que se ejecutan sobre contenedores efímeros y monitoriza logs.</td>
+                                <td class="level-cell">Implementa trabajos por lotes que escalan dinámicamente nodos en función del volumen de tareas y configura alertas de fallos.</td>
+                            </tr>
+                            <tr>
+                                <td class="ra-cell">RA4. Marketplace y Terceros</td>
+                                <td class="level-cell">Despliega soluciones sin revisar costes ni configurar seguridad, dejando accesos inseguros.</td>
+                                <td class="level-cell">Selecciona y despliega una aplicación del Marketplace (ej. Wordpress) siguiendo un tutorial básico.</td>
+                                <td class="level-cell">Despliega una solución del Marketplace configurando subredes privadas, llaves SSH y documenta accesos.</td>
+                                <td class="level-cell">Evalúa opciones bajo costes y licencias (BYOL), gestiona actualizaciones y asegura accesos integrando SSL e IAM.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <!-- Barra Lateral con Recursos -->
+        <aside>
+            <div class="sidebar-panel">
+                <h3 class="sidebar-title">Recursos Didácticos</h3>
+                <ul class="resource-list">
+                    <li class="resource-item">
+                        <a href="https://developer.hashicorp.com/terraform/tutorials" target="_blank" rel="noopener">
+                            <div class="resource-name">Terraform Learn</div>
+                            <div class="resource-desc">Rutas de aprendizaje para infraestructura como código declarativa.</div>
+                        </a>
+                    </li>
+                    <li class="resource-item">
+                        <a href="https://aws.amazon.com/es/sqs/" target="_blank" rel="noopener">
+                            <div class="resource-name">AWS SQS & SNS</div>
+                            <div class="resource-desc">Conceptos de colas y notificaciones asíncronas de desacoplamiento.</div>
+                        </a>
+                    </li>
+                    <li class="resource-item">
+                        <a href="https://aws.amazon.com/es/batch/" target="_blank" rel="noopener">
+                            <div class="resource-name">AWS Batch</div>
+                            <div class="resource-desc">Información sobre orquestación y colas de tareas de procesamiento por lotes.</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026-2027 Portal de Recursos y Servicios en la Nube. Conselleria d'Educació. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="../app.js"></script>
+</body>
+</html>

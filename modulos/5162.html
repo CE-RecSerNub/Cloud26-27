@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guía didáctica del Módulo 5162: Administración de bases de datos y almacenamiento en la nube. Curso de especialización de FP.">
+    <title>Módulo 5162 - Bases de Datos y Almacenamiento - Especialización FP</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+    <div class="bg-glow"></div>
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="../index.html" class="nav-brand">
+                CLOUD<span>CE</span>
+            </a>
+            <div class="nav-links">
+                <a href="../index.html" class="nav-link">Inicio</a>
+                <a href="../index.html#modulos" class="nav-link">Módulos</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cabecera de Módulo -->
+    <header class="module-header container">
+        <a href="../index.html" class="back-link">← Volver al inicio</a>
+        <div class="module-code">Módulo Profesional 5162</div>
+        <h1 class="module-header-title">Administración de bases de datos y almacenamiento en la nube</h1>
+        <div class="badge-group">
+            <span class="badge badge-primary">Duración: 100 horas</span>
+            <span class="badge badge-primary">Créditos: 12 ECTS</span>
+            <span class="badge">Especialidad: Informática</span>
+        </div>
+    </header>
+
+    <!-- Layout Detallado -->
+    <div class="container detail-layout">
+        
+        <!-- Contenido Principal -->
+        <main>
+            <section style="margin-bottom: 40px;">
+                <h2 style="font-size: 1.8rem; margin-bottom: 16px; font-family: var(--font-header);">Guía Didáctica</h2>
+                <p style="color: var(--text-secondary); margin-bottom: 24px;">Este módulo es el más extenso del curso. Prepara al alumno en la selección de opciones de almacenamiento cloud según costes, rendimiento y seguridad. Abarca el almacenamiento de objetos, volúmenes de bloque y archivos de red. Asimismo, enseña a desplegar y optimizar bases de datos transaccionales (SQL) e informacionales (NoSQL), sincronizar datos locales en entornos híbridos y configurar almacenes analíticos a gran escala (OLAP/ETL).</p>
+            </section>
+
+            <!-- Acordeones de RAs y CEs -->
+            <section style="margin-bottom: 60px;">
+                <h2 style="font-size: 1.5rem; margin-bottom: 24px; font-family: var(--font-header);">Resultados de Aprendizaje y Criterios de Evaluación</h2>
+                <div class="ra-list">
+                    
+                    <!-- RA 1 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 1.</strong> Selecciona el tipo de almacenamiento según criterios de rendimiento y coste</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se ha comprobado que las opciones del proveedor cubren requisitos funcionales.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se han evaluado garantías de durabilidad, fiabilidad y rendimiento en la documentación.</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se han descartado clases de almacenamiento no disponibles geográficamente.</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se ha seleccionado el tipo de almacenamiento más económico del catálogo.</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se han ajustado variables de tamaño, ciclos de acceso y replicación para optimizar costes.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RA 2 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 2.</strong> Administra sistemas de almacenamiento de objetos (Buckets)</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se han definido contenedores (buckets) y metadatos respetando límites del proveedor.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se han asignado clases de almacenamiento según frecuencias de acceso y costes.</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se ha seleccionado la región óptima, respetando normativas de residencia (ej. RGPD).</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se ha configurado cifrado en reposo mediante consola, comandos o código.</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se han implementado políticas de seguridad, visibilidad y logs de auditoría.</li>
+                                    <li class="ce-item"><span class="ce-bullet">f)</span> Se han configurado dominios personalizados con certificados SSL/TLS para acceso web.</li>
+                                    <li class="ce-item"><span class="ce-bullet">g)</span> Se han implementado políticas de ciclo de vida (Lifecycle rules) para auto-archivado.</li>
+                                    <li class="ce-item"><span class="ce-bullet">h)</span> Se ha establecido la replicación cruzada inter-región y políticas de backups.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RA 3 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 3.</strong> Administra almacenamiento de archivos y volúmenes de bloque</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se ha escogido la clase y velocidad del disco según necesidades.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se ha distribuido la replicación entre múltiples zonas para redundancia.</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se ha configurado el cifrado nativo del volumen.</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se han parametrizado la seguridad, auditoría e inspección del volumen.</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se han montado volúmenes (bloques) o archivos de red (NFS/SMB) en clientes.</li>
+                                    <li class="ce-item"><span class="ce-bullet">f)</span> Se han aplicado cambios de ciclo de vida (redimensionado, desmontaje, borrado).</li>
+                                    <li class="ce-item"><span class="ce-bullet">g)</span> Se han planificado backups automatizados mediante snapshots de discos.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RA 4 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 4.</strong> Administra bases de datos SQL y NoSQL relacionales/documentales</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se ha configurado la topología regional y réplicas de lectura.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se ha configurado el cifrado en reposo y en tránsito.</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se ha limitado el acceso de red a subredes privadas y se auditan logs.</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se han ejecutado actualizaciones de versión y cambios de tamaño de cómputo.</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se han configurado políticas de copias de seguridad automatizadas y retención.</li>
+                                    <li class="ce-item"><span class="ce-bullet">f)</span> Se ha monitorizado el rendimiento del motor de base de datos.</li>
+                                    <li class="ce-item"><span class="ce-bullet">g)</span> Se han optimizado consultas e índices para mejorar costes y velocidad.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RA 5 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 5.</strong> Gestiona flujos y transferencia de datos (Online / Offline)</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se ha determinado el mecanismo de migración (online/offline) más conveniente.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se han calculado costes de transferencia de red (egress).</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se han programado tareas de sincronización de datos seguras.</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se han provisionado y cifrado dispositivos físicos para migración a gran escala.</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se han configurado permisos en los orígenes y destinos del flujo.</li>
+                                    <li class="ce-item"><span class="ce-bullet">f)</span> Se ha configurado la sincronización automática unidireccional o bidireccional.</li>
+                                    <li class="ce-item"><span class="ce-bullet">g)</span> Se han realizado importaciones manuales o volcados de datos pesados.</li>
+                                    <li class="ce-item"><span class="ce-bullet">h)</span> Se han analizado errores y verificado la integridad de las copias.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RA 6 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 6.</strong> Administra infraestructura de almacenamiento híbrida</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se ha diseñado e implementado una configuración híbrida de almacenamiento.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se han utilizado conexiones directas o túneles VPN privados para interconexión.</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se han desplegado pasarelas de almacenamiento (Storage Gateways) para compartir caché.</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se han configurado logs y monitorización de las conexiones locales.</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se ha configurado la sincronización automática en segundo plano hacia la nube.</li>
+                                    <li class="ce-item"><span class="ce-bullet">f)</span> Se han importado/exportado datos bajo supervisión en el entorno híbrido.</li>
+                                    <li class="ce-item"><span class="ce-bullet">g)</span> Se ha auditado la consistencia del almacenamiento híbrido.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RA 7 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 7.</strong> Administra sistemas de transformación y análisis de datos (OLAP)</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se ha seleccionado la región y réplicas analíticas adecuadas.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se ha configurado cifrado en tránsito y en reposo de almacenes analíticos.</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se ha limitado el acceso a nivel de fila y columna (Data Masking).</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se ha configurado particionado y empaquetado columnar (Parquet/ORC) para consultas.</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se han monitorizado los logs de trabajos de extracción y carga (ETL).</li>
+                                    <li class="ce-item"><span class="ce-bullet">f)</span> Se han configurado respaldos de los datos consolidados analíticos.</li>
+                                    <li class="ce-item"><span class="ce-bullet">g)</span> Se ha auditado el consumo de almacenamiento y cuotas de consulta OLAP.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Rúbrica Interactiva -->
+            <section class="rubric-section">
+                <h2 style="font-size: 1.5rem; margin-bottom: 12px; font-family: var(--font-header);">Rúbrica interactiva de Evaluación</h2>
+                <p class="rubric-intro">Haz clic en cada celda para marcar y registrar el nivel de logro del alumno por cada Resultado de Aprendizaje.</p>
+                
+                <div class="rubric-table-wrapper">
+                    <table class="rubric-table">
+                        <thead>
+                            <tr>
+                                <th>Resultado de Aprendizaje</th>
+                                <th>Insuficiente (1-4)</th>
+                                <th>Suficiente (5)</th>
+                                <th>Notable (6-8)</th>
+                                <th>Sobresaliente (9-10)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="ra-cell">RA1. Selección de Almacenamiento</td>
+                                <td class="level-cell">Mezcla conceptos de bloques y archivos. Escoge de forma arbitraria sin justificar costes.</td>
+                                <td class="level-cell">Identifica los tipos de almacenamiento teóricos y describe sus costes según manual.</td>
+                                <td class="level-cell">Selecciona el almacenamiento basándose en el rendimiento (IOPS) y durabilidad requerida.</td>
+                                <td class="level-cell">Realiza estudios comparativos de coste detallados y propone soluciones optimizadas combinando almacenamiento.</td>
+                            </tr>
+                            <tr>
+                                <td class="ra-cell">RA2. Almacenamiento de Objetos</td>
+                                <td class="level-cell">Deja el bucket público por error. Incapaz de configurar cifrados o accesos.</td>
+                                <td class="level-cell">Crea un bucket, sube objetos manualmente y aplica cifrado básico sugerido.</td>
+                                <td class="level-cell">Configura políticas de ciclo de vida (Lifecycle), versionado, políticas de bucket y réplicas inter-regionales.</td>
+                                <td class="level-cell">Desarrolla flujos mediante IaC con dominios personalizados HTTPS, logs de auditoría y claves KMS administradas.</td>
+                            </tr>
+                            <tr>
+                                <td class="ra-cell">RA3. Archivos y Bloques</td>
+                                <td class="level-cell">Incapaz de montar discos. Confunde sistemas de bloque con archivos de red compartidos.</td>
+                                <td class="level-cell">Despliega y asocia un volumen de disco de bloque o red a una instancia de forma guiada.</td>
+                                <td class="level-cell">Redimensiona volúmenes de disco en caliente, configura backups automáticos y gestiona permisos NFS/SMB.</td>
+                                <td class="level-cell">Implementa sistemas de archivos elásticos con optimización de IOPS y rendimiento de ráfaga y automatiza snapshots.</td>
+                            </tr>
+                            <tr>
+                                <td class="ra-cell">RA4. Administración de BBDD</td>
+                                <td class="level-cell">Expone BBDD directamente a Internet. Desconoce cómo optimizar rendimiento.</td>
+                                <td class="level-cell">Despliega una BBDD relacional básica (RDS/Cloud SQL) y realiza consultas simples de prueba.</td>
+                                <td class="level-cell">Configura alta disponibilidad (Multi-AZ), réplicas de lectura, backups, parches y subredes privadas.</td>
+                                <td class="level-cell">Optimiza mediante análisis de logs de consultas lentas, ajusta índices, rediseña esquemas y escala cómputo.</td>
+                            </tr>
+                            <tr>
+                                <td class="ra-cell">RA5. Gestión y Transferencia</td>
+                                <td class="level-cell">Pierde la integridad en la copia. Desconoce los costes de egreso (egress) de red.</td>
+                                <td class="level-cell">Realiza volcados manuales e importaciones básicas de BBDD usando comandos tipo Dump.</td>
+                                <td class="level-cell">Configura tareas de sincronización (DataSync) y analiza correctamente el presupuesto de egreso de datos.</td>
+                                <td class="level-cell">Planifica migraciones a gran escala offline/online con cifrado y verificación de hashes de integridad.</td>
+                            </tr>
+                            <tr>
+                                <td class="ra-cell">RA6. Infraestructura Híbrida</td>
+                                <td class="level-cell">Incapaz de conectar el almacenamiento local con servicios cloud.</td>
+                                <td class="level-cell">Comprende el funcionamiento teórico de una pasarela de almacenamiento híbrido.</td>
+                                <td class="level-cell">Despliega una pasarela de almacenamiento (Storage Gateway) compartiendo volúmenes locales de forma guiada.</td>
+                                <td class="level-cell">Administra e integra sistemas de archivos híbridos en producción local, garantizando coherencia de caché y cifrado.</td>
+                            </tr>
+                            <tr>
+                                <td class="ra-cell">RA7. Análisis de Datos (OLAP)</td>
+                                <td class="level-cell">Carga archivos raw sin estructurar, produciendo altos costes de consulta.</td>
+                                <td class="level-cell">Carga datos analíticos sencillos en una base de datos analítica (BigQuery/Redshift) y ejecuta consultas SQL.</td>
+                                <td class="level-cell">Configura particionado de datos, formatos de columna compactados (Parquet) y audita accesos a nivel de fila/columna.</td>
+                                <td class="level-cell">Desarrolla tuberías (pipelines) ETL automatizadas que limpian y cargan datos a formatos OLAP optimizados.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <!-- Barra Lateral con Recursos -->
+        <aside>
+            <div class="sidebar-panel">
+                <h3 class="sidebar-title">Recursos Didácticos</h3>
+                <ul class="resource-list">
+                    <li class="resource-item">
+                        <a href="https://aws.amazon.com/es/rds/" target="_blank" rel="noopener">
+                            <div class="resource-name">AWS RDS</div>
+                            <div class="resource-desc">Información oficial sobre bases de datos relacionales administradas.</div>
+                        </a>
+                    </li>
+                    <li class="resource-item">
+                        <a href="https://cloud.google.com/bigquery?hl=es" target="_blank" rel="noopener">
+                            <div class="resource-name">Google BigQuery</div>
+                            <div class="resource-desc">Entorno de almacenamiento analítico serverless de alta escala.</div>
+                        </a>
+                    </li>
+                    <li class="resource-item">
+                        <a href="https://www.postgresql.org/" target="_blank" rel="noopener">
+                            <div class="resource-name">PostgreSQL</div>
+                            <div class="resource-desc">El motor relacional avanzado más popular en entornos cloud.</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026-2027 Portal de Recursos y Servicios en la Nube. Conselleria d'Educació. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="../app.js"></script>
+</body>
+</html>

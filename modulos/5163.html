@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guía didáctica del Módulo 5163: Administración de redes en la nube. Curso de especialización de FP.">
+    <title>Módulo 5163 - Redes en la Nube - Especialización FP</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+    <div class="bg-glow"></div>
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="../index.html" class="nav-brand">
+                CLOUD<span>CE</span>
+            </a>
+            <div class="nav-links">
+                <a href="../index.html" class="nav-link">Inicio</a>
+                <a href="../index.html#modulos" class="nav-link">Módulos</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cabecera de Módulo -->
+    <header class="module-header container">
+        <a href="../index.html" class="back-link">← Volver al inicio</a>
+        <div class="module-code">Módulo Profesional 5163</div>
+        <h1 class="module-header-title">Administración de redes en la nube</h1>
+        <div class="badge-group">
+            <span class="badge badge-primary">Duración: 70 horas</span>
+            <span class="badge badge-primary">Créditos: 8 ECTS</span>
+            <span class="badge">Especialidad: Informática</span>
+        </div>
+    </header>
+
+    <!-- Layout Detallado -->
+    <div class="container detail-layout">
+        
+        <!-- Contenido Principal -->
+        <main>
+            <section style="margin-bottom: 40px;">
+                <h2 style="font-size: 1.8rem; margin-bottom: 16px; font-family: var(--font-header);">Guía Didáctica</h2>
+                <p style="color: var(--text-secondary); margin-bottom: 24px;">Este módulo capacita en el diseño e implementación del direccionamiento, enrutamiento y seguridad de redes virtuales. Cubre desde la partición de subredes públicas y privadas, balanceo de carga L4 y L7, resolución DNS interna/externa y distribución mediante CDN, hasta la conectividad híbrida segura con redes locales física-virtual (VPN IPSec y ExpressRoute/DirectConnect) y la protección mediante firewalls WAF e IPS.</p>
+            </section>
+
+            <!-- Acordeones de RAs y CEs -->
+            <section style="margin-bottom: 60px;">
+                <h2 style="font-size: 1.5rem; margin-bottom: 24px; font-family: var(--font-header);">Resultados de Aprendizaje y Criterios de Evaluación</h2>
+                <div class="ra-list">
+                    
+                    <!-- RA 1 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 1.</strong> Despliega infraestructuras de red asociadas a aplicaciones</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se han configurado redes virtuales (VPCs), subredes CIDR, puertas de enlace y cortafuegos.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se han configurado reglas de seguridad (Security Groups) por puertos y protocolos.</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se ha configurado resolución DNS interna y externa.</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se han configurado túneles VPN, endpoints privados y peering entre redes virtuales.</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se han creado herramientas de captura y análisis del tráfico (VPC Flow Logs).</li>
+                                    <li class="ce-item"><span class="ce-bullet">f)</span> Se ha establecido el enrutamiento WAN con la red corporativa local.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RA 2 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 2.</strong> Configura recursos de balanceo y escalado horizontal de red</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se han configurado balanceadores de carga L4 y L7 con sus comprobaciones de salud.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se han estructurado alias y registros DNS de balanceador.</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se ha configurado la caché perimetral distribuida (CDN) en HTTPS.</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se han establecido pasarelas de traducción de IPs privadas a públicas (NAT Gateways).</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se han reservado IPs estáticas públicas y privadas fijas.</li>
+                                    <li class="ce-item"><span class="ce-bullet">f)</span> Se han habilitado cortafuegos perimetrales, enrutadores globales (Transit Gateway) y VPNs.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RA 3 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 3.</strong> Administra redes privadas híbridas físicas y virtuales</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se ha configurado emparejamiento directo (peering) entre redes cloud.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se han creado túneles VPN IPSec entre redes on-premise y cloud.</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se han establecido conexiones dedicadas físicas y configurado BGP dinámico.</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se han establecido puntos de emparejamiento públicos garantizando latencias y costes.</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se han configurado rutas dinámicas automáticas en enrutadores físicos y virtuales.</li>
+                                    <li class="ce-item"><span class="ce-bullet">f)</span> Se han configurado clientes VPN software de acceso temporal seguros (point-to-site).</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RA 4 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 4.</strong> Configura la ciberseguridad en redes y monitoriza conexiones</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se han establecido directivas de seguridad para supervisar accesos de red.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se han configurado cortafuegos perimetrales analizando políticas de tráfico.</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se han implementado cortafuegos de aplicación web (WAF) y detectores de intrusos (IPS).</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se ha automatizado la auditoría y despliegue de red mediante CLI o plantillas.</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se ha monitorizado la conectividad y se han establecido alertas sobre logs.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Rúbrica Interactiva -->
+            <section class="rubric-section">
+                <h2 style="font-size: 1.5rem; margin-bottom: 12px; font-family: var(--font-header);">Rúbrica interactiva de Evaluación</h2>
+                <p class="rubric-intro">Haz clic en cada celda para marcar y registrar el nivel de logro del alumno por cada Resultado de Aprendizaje.</p>
+                
+                <div class="rubric-table-wrapper">
+                    <table class="rubric-table">
+                        <thead>
+                            <tr>
+                                <th>Resultado de Aprendizaje</th>
+                                <th>Insuficiente (1-4)</th>
+                                <th>Suficiente (5)</th>
+                                <th>Notable (6-8)</th>
+                                <th>Sobresaliente (9-10)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="ra-cell">RA1. Despliegue de Red Virtual</td>
+                                <td class="level-cell">Desconoce el direccionamiento CIDR y mezcla IPs de subredes solapadas. Deja recursos vulnerables.</td>
+                                <td class="level-cell">Crea una red virtual (VPC) con subredes públicas e Internet Gateway de manera guiada.</td>
+                                <td class="level-cell">Diseña subredes públicas y privadas, gestiona tablas de enrutamiento, grupos de seguridad y activa logs.</td>
+                                <td class="level-cell">Implementa redes complejas con direccionamiento óptimo, endpoints privados (PrivateLink) y peering.</td>
+                            </tr>
+                            <tr>
+                                <td class="ra-cell">RA2. Balanceo y Enrutamiento</td>
+                                <td class="level-cell">No sabe cómo redirigir el tráfico. Expone servidores directamente sin balanceador.</td>
+                                <td class="level-cell">Asocia una IP elástica o estática pública a una instancia y levanta un balanceador de forma guiada.</td>
+                                <td class="level-cell">Configura balanceadores L7 de forma autónoma con comprobaciones de salud, alias de DNS y NAT Gateway.</td>
+                                <td class="level-cell">Implementa alta disponibilidad global usando CDNs con HTTPS, políticas DNS dinámicas y balanceadores.</td>
+                            </tr>
+                            <tr>
+                                <td class="ra-cell">RA3. Redes Híbridas</td>
+                                <td class="level-cell">No logra conectar entornos on-premise con cloud de forma segura.</td>
+                                <td class="level-cell">Configura un cliente VPN software individual (point-to-site) de forma guiada.</td>
+                                <td class="level-cell">Configura túneles VPN site-to-site entre red simulada y la nube, aplicando cifrado IPsec estándar.</td>
+                                <td class="level-cell">Diseña e implementa una red híbrida integrada (con Transit Gateway), configurando BGP dinámico y redundancia.</td>
+                            </tr>
+                            <tr>
+                                <td class="ra-cell">RA4. Seguridad y Monitorización</td>
+                                <td class="level-cell">Permite acceso total (0.0.0.0/0) a todos los puertos. No audita ni revisa logs de red.</td>
+                                <td class="level-cell">Aplica reglas de firewall a puertos de bases de datos o HTTP limitadas a IPs indicadas en la práctica.</td>
+                                <td class="level-cell">Configura reglas WAF frente a ataques web comunes, habilita alertas de tráfico y audita logs.</td>
+                                <td class="level-cell">Implementa un control perimetral coordinado con IDS/IPS y WAF activo que mitiga y bloquea ataques automáticamente.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <!-- Barra Lateral con Recursos -->
+        <aside>
+            <div class="sidebar-panel">
+                <h3 class="sidebar-title">Recursos Didácticos</h3>
+                <ul class="resource-list">
+                    <li class="resource-item">
+                        <a href="https://docs.aws.amazon.com/vpc/" target="_blank" rel="noopener">
+                            <div class="resource-name">AWS VPC Guide</div>
+                            <div class="resource-desc">Conceptos de subredes, tablas de enrutamiento y grupos de seguridad.</div>
+                        </a>
+                    </li>
+                    <li class="resource-item">
+                        <a href="https://www.cloudflare.com/es-es/learning/cdn/what-is-a-cdn/" target="_blank" rel="noopener">
+                            <div class="resource-name">Cloudflare Learning</div>
+                            <div class="resource-desc">Conceptos de caching, CDNs y seguridad perimetral contra ataques DDoS.</div>
+                        </a>
+                    </li>
+                    <li class="resource-item">
+                        <a href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noopener">
+                            <div class="resource-name">OWASP Top 10</div>
+                            <div class="resource-desc">Los 10 riesgos de seguridad más críticos en aplicaciones web para reglas WAF.</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026-2027 Portal de Recursos y Servicios en la Nube. Conselleria d'Educació. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="../app.js"></script>
+</body>
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guía didáctica del Módulo 5161: Administración de recursos de computación en la nube. Curso de especialización de FP.">
+    <title>Módulo 5161 - Computación en la Nube - Especialización FP</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+    <div class="bg-glow"></div>
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="../index.html" class="nav-brand">
+                CLOUD<span>CE</span>
+            </a>
+            <div class="nav-links">
+                <a href="../index.html" class="nav-link">Inicio</a>
+                <a href="../index.html#modulos" class="nav-link">Módulos</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cabecera de Módulo -->
+    <header class="module-header container">
+        <a href="../index.html" class="back-link">← Volver al inicio</a>
+        <div class="module-code">Módulo Profesional 5161</div>
+        <h1 class="module-header-title">Administración de recursos de computación en la nube</h1>
+        <div class="badge-group">
+            <span class="badge badge-primary">Duración: 70 horas</span>
+            <span class="badge badge-primary">Créditos: 8 ECTS</span>
+            <span class="badge">Especialidad: Sistemas y Aplicaciones Informáticas</span>
+        </div>
+    </header>
+
+    <!-- Layout Detallado -->
+    <div class="container detail-layout">
+        
+        <!-- Contenido Principal -->
+        <main>
+            <section style="margin-bottom: 40px;">
+                <h2 style="font-size: 1.8rem; margin-bottom: 16px; font-family: var(--font-header);">Guía Didáctica</h2>
+                <p style="color: var(--text-secondary); margin-bottom: 24px;">Este módulo capacita al alumnado en la gestión del cómputo en la nube. Aprenderán a desplegar servidores virtuales y grupos de autoescalado elástico, crear y administrar imágenes y microservicios en contenedores Docker, implementar funciones serverless (FaaS) y automatizar copias de seguridad de la infraestructura de computación.</p>
+            </section>
+
+            <!-- Acordeones de RAs y CEs -->
+            <section style="margin-bottom: 60px;">
+                <h2 style="font-size: 1.5rem; margin-bottom: 24px; font-family: var(--font-header);">Resultados de Aprendizaje y Criterios de Evaluación</h2>
+                <div class="ra-list">
+                    
+                    <!-- RA 1 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 1.</strong> Despliega instancias de computación elástica y grupos de autoescalado</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se ha seleccionado una región y zona de disponibilidad para alta disponibilidad.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se han creado plantillas de ejecución (Launch Templates) para instancias.</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se ha seleccionado el tipo de cómputo (CPU, memoria, virtualizador) más rentable.</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se han reservado los recursos en la plataforma según la opción seleccionada.</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se han empleado plantillas para homogeneizar la creación de servidores.</li>
+                                    <li class="ce-item"><span class="ce-bullet">f)</span> Se han modificado los recursos (escalado vertical) analizando tamaño y memoria.</li>
+                                    <li class="ce-item"><span class="ce-bullet">g)</span> Se han definido comportamientos elásticos de autoescalado horizontal automático.</li>
+                                    <li class="ce-item"><span class="ce-bullet">h)</span> Se han seleccionado y configurado agentes de monitorización del rendimiento.</li>
+                                    <li class="ce-item"><span class="ce-bullet">i)</span> Se han asegurado los accesos (puertos, protocolos) a la máquina virtual.</li>
+                                    <li class="ce-item"><span class="ce-bullet">j)</span> Se han creado etiquetas para identificar unívocamente las instancias.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RA 2 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 2.</strong> Aplica técnicas de despliegue de contenedores e imágenes</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se han elegido región y zona de disponibilidad según arquitectura.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se han descargado, configurado y subido imágenes en repositorios (Registries).</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se han configurado variables de entorno y archivos de inicialización del contenedor.</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se han limitado los recursos de CPU/Memoria y configurado DNS y almacenamiento persistente.</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se han organizado nodos de cómputo y balanceado el tráfico de contenedores.</li>
+                                    <li class="ce-item"><span class="ce-bullet">f)</span> Se han activado monitorizaciones sobre la salud y rendimiento de los contenedores.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RA 3 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 3.</strong> Implementa arquitecturas basadas en funciones Serverless (FaaS)</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se ha seleccionado la región óptima de ejecución de funciones.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se han programado y desplegado funciones ejecutables.</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se han asociado roles e identidades con permisos adecuados a la función.</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se ha configurado almacenamiento temporal o persistente para la ejecución.</li>
+                                    <li class="ce-item"><span class="ce-bullet">e)</span> Se han integrado disparadores por eventos y alarmas a los flujos.</li>
+                                    <li class="ce-item"><span class="ce-bullet">f)</span> Se ha configurado el despliegue garantizando la seguridad en los orígenes.</li>
+                                    <li class="ce-item"><span class="ce-bullet">g)</span> Se han asignado etiquetas identificativas a las funciones.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RA 4 -->
+                    <div class="ra-item">
+                        <button class="ra-trigger">
+                            <span class="ra-title"><strong>RA 4.</strong> Automatiza backups y planes de recuperación ante desastres (DR)</span>
+                            <span class="ra-icon">▼</span>
+                        </button>
+                        <div class="ra-content">
+                            <div class="ra-inner">
+                                <h4 class="ce-title">Criterios de Evaluación:</h4>
+                                <ul class="ce-list">
+                                    <li class="ce-item"><span class="ce-bullet">a)</span> Se han determinado regiones y zonas de destino de respaldos.</li>
+                                    <li class="ce-item"><span class="ce-bullet">b)</span> Se han diseñado planes de copia indicando frecuencias y políticas de retención.</li>
+                                    <li class="ce-item"><span class="ce-bullet">c)</span> Se han configurado cifrados, retenciones a largo plazo y RTO/RPO de recuperación.</li>
+                                    <li class="ce-item"><span class="ce-bullet">d)</span> Se han asignado recursos a los planes de backup de forma automatizada mediante etiquetas.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Rúbrica Interactiva -->
+            <section class="rubric-section">
+                <h2 style="font-size: 1.5rem; margin-bottom: 12px; font-family: var(--font-header);">Rúbrica interactiva de Evaluación</h2>
+                <p class="rubric-intro">Haz clic en cada celda para marcar y registrar el nivel de logro del alumno por cada Resultado de Aprendizaje.</p>
+                
+                <div class="rubric-table-wrapper">
+                    <table class="rubric-table">
+                        <thead>
+                            <tr>
+                                <th>Resultado de Aprendizaje</th>
+                                <th>Insuficiente (1-4)</th>
+                                <th>Suficiente (5)</th>
+                                <th>Notable (6-8)</th>
+                                <th>Sobresaliente (9-10)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="ra-cell">RA1. Instancias y Autoescalado</td>
+                                <td class="level-cell">Incapaz de desplegar una máquina virtual básica. Confunde escalado vertical con horizontal.</td>
+                                <td class="level-cell">Despliega una instancia virtual simple de forma guiada en una región y zona concreta.</td>
+                                <td class="level-cell">Configura plantillas de lanzamiento, grupos de seguridad y un autoescalado basado en CPU.</td>
+                                <td class="level-cell">Diseña e implementa una arquitectura elástica multinivel autoescalable tras balanceador y optimiza con instancias Spot.</td>
+                            </tr>
+                            <tr>
+                                <td class="ra-cell">RA2. Despliegue de Contenedores</td>
+                                <td class="level-cell">No entiende el concepto de contenedor. Incapaz de descargar u operar imágenes Docker.</td>
+                                <td class="level-cell">Ejecuta un contenedor simple en un servicio PaaS (ej. Cloud Run o ACI) a partir de una imagen pública.</td>
+                                <td class="level-cell">Construye imágenes personalizadas, las sube a un registro privado y configura variables y recursos.</td>
+                                <td class="level-cell">Orquesta múltiples contenedores interconectados con almacenamiento persistente y grupos de nodos para alta disponibilidad.</td>
+                            </tr>
+                            <tr>
+                                <td class="ra-cell">RA3. Funciones (Serverless)</td>
+                                <td class="level-cell">Confunde la computación sin servidor con la ausencia de código. Incapaz de desplegar una función.</td>
+                                <td class="level-cell">Despliega una función de prueba con código de plantilla de la consola del proveedor.</td>
+                                <td class="level-cell">Configura disparadores por eventos, asocia roles IAM específicos y limita el tiempo de ejecución.</td>
+                                <td class="level-cell">Desarrolla microservicios serverless completos, gestiona variables secretas y monitoriza analíticamente.</td>
+                            </tr>
+                            <tr>
+                                <td class="ra-cell">RA4. Backups de Cómputo</td>
+                                <td class="level-cell">No planifica copias de seguridad de las instancias o las realiza únicamente de forma manual.</td>
+                                <td class="level-cell">Realiza snapshots manuales de discos de instancias de computación siguiendo indicaciones.</td>
+                                <td class="level-cell">Configura planes de backup periódicos automatizados (frecuencia, retención) y políticas de cifrado básicas.</td>
+                                <td class="level-cell">Implementa una política global de Disaster Recovery automatizada con replicación inter-región y valida RTO/RPO.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <!-- Barra Lateral con Recursos -->
+        <aside>
+            <div class="sidebar-panel">
+                <h3 class="sidebar-title">Recursos Didácticos</h3>
+                <ul class="resource-list">
+                    <li class="resource-item">
+                        <a href="https://docs.docker.com/" target="_blank" rel="noopener">
+                            <div class="resource-name">Docker Docs</div>
+                            <div class="resource-desc">Guía oficial para la creación de imágenes y ficheros docker-compose.</div>
+                        </a>
+                    </li>
+                    <li class="resource-item">
+                        <a href="https://kubernetes.io/es/docs/home/" target="_blank" rel="noopener">
+                            <div class="resource-name">Kubernetes Academy</div>
+                            <div class="resource-desc">Conceptos básicos de orquestación de contenedores en la nube.</div>
+                        </a>
+                    </li>
+                    <li class="resource-item">
+                        <a href="https://docs.aws.amazon.com/lambda/" target="_blank" rel="noopener">
+                            <div class="resource-name">AWS Lambda Docs</div>
+                            <div class="resource-desc">Documentación sobre desarrollo serverless basado en eventos.</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026-2027 Portal de Recursos y Servicios en la Nube. Conselleria d'Educació. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="../app.js"></script>
+</body>
+</html>
