@@ -5,7 +5,7 @@ Bienvenido al repositorio oficial del **Curso de Especialización de Formación 
 
 Este espacio está diseñado para albergar las programaciones, guías didácticas, prácticas, y materiales de soporte docente para las enseñanzas de este curso de especialización en el territorio de la Comunitat Valenciana.
 
-🚀 **Portal Web del Curso (Publicado en GitHub Pages):** [anajmtnez.github.io/CloudRepo26-27](https://anajmtnez.github.io/CloudRepo26-27/)
+🚀 **Portal Web del Curso (Publicado en GitHub Pages):** [ce-recsernub.github.io/Cloud26-27](https://ce-recsernub.github.io/Cloud26-27/)
 
 ---
 
