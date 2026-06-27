@@ -15,7 +15,7 @@ Este espacio está diseñado para albergar las programaciones, guías didáctica
     *   *Nota Dual:* Para el curso 2026-2027, el **25% de las 700 horas de los módulos (175 horas)** se realiza en modalidad de **Formación en Empresa (FE)** (FCT/Dual).
 *   **Créditos ECTS:** 41.
 *   **Familia Profesional:** Informática y Comunicaciones.
-*   **Referencia Normativa:** [Real Decreto 145/2026, de 25 de febrero](https://www.boe.es/eli/es/rd/2026/02/25/145) (BOE nº 53, de 28 de febrero de 2026), adaptado al currículo de la Comunitat Valenciana.
+*   **Referencia Normativa:** [Real Decreto 145/2026, de 25 de febrero](https://www.boe.es/eli/es/rd/2026/02/25/145) (BOE nº 53, de 28 de febrero de 2026) y el [Decreto 95/2026, de 19 de junio, del Consell](https://dogv.gva.es/va/eli/es-vc/d/2026/06/19/95/dof/vci/html) (DOGV nº 10391, de 25 de junio de 2026), regulador del currículo en la Comunitat Valenciana.
 *   **Requisitos de Acceso:** 
     *   Técnico Superior en Administración de Sistemas Informáticos en Red (**ASIR**).
     *   Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (**DAM**).
