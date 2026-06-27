@@ -1,5 +1,5 @@
 # Guía Didáctica: Administración de Bases de Datos y Almacenamiento en la Nube
-## Código: 5162 | Carga Horaria: 100 horas | Créditos: 12 ECTS
+## Código: 5162 | Carga Horaria: 150 horas | Créditos: 12 ECTS
 
 ---
 
@@ -7,7 +7,7 @@
 
 *   **Módulo Profesional:** Administración de bases de datos y almacenamiento en la nube.
 *   **Código:** 5162.
-*   **Duración:** 100 horas (módulo con mayor carga horaria del curso).
+*   **Duración:** 150 horas.
 *   **ECTS:** 12.
 *   **Especialidad Docente:** Informática.
 *   **Perfil:** Profesor de Enseñanza Secundaria / Catedrático de Informática.

@@ -1,5 +1,5 @@
 # Guía Didáctica: Administración de Redes en la Nube
-## Código: 5163 | Carga Horaria: 70 horas | Créditos: 8 ECTS
+## Código: 5163 | Carga Horaria: 150 horas | Créditos: 8 ECTS
 
 ---
 
@@ -7,7 +7,7 @@
 
 *   **Módulo Profesional:** Administración de redes en la nube.
 *   **Código:** 5163.
-*   **Duración:** 70 horas.
+*   **Duración:** 150 horas.
 *   **ECTS:** 8.
 *   **Especialidad Docente:** Informática.
 *   **Perfil:** Profesor de Enseñanza Secundaria / Catedrático de Informática.

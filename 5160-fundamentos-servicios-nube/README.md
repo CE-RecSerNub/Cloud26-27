@@ -1,5 +1,5 @@
 # Guía Didáctica: Fundamentos y Configuración Inicial de Servicios en la Nube
-## Código: 5160 | Carga Horaria: 70 horas | Créditos: 8 ECTS
+## Código: 5160 | Carga Horaria: 130 horas | Créditos: 8 ECTS
 
 ---
 
@@ -7,7 +7,7 @@
 
 *   **Módulo Profesional:** Fundamentos y configuración inicial de servicios en la nube.
 *   **Código:** 5160.
-*   **Duración:** 70 horas.
+*   **Duración:** 130 horas.
 *   **ECTS:** 8.
 *   **Especialidad Docente:** Sistemas y Aplicaciones Informáticas.
 *   **Perfil:** Profesor de Enseñanza Secundaria / Catedrático / Profesor Técnico de FP (a extinguir).

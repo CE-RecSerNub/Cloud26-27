@@ -1,5 +1,5 @@
 # Guía Didáctica: Despliegue de Servicios Administrados en la Nube
-## Código: 5164 | Carga Horaria: 40 horas | Créditos: 5 ECTS
+## Código: 5164 | Carga Horaria: 90 horas | Créditos: 5 ECTS
 
 ---
 
@@ -7,7 +7,7 @@
 
 *   **Módulo Profesional:** Despliegue de servicios administrados en la nube.
 *   **Código:** 5164.
-*   **Duración:** 40 horas.
+*   **Duración:** 90 horas.
 *   **ECTS:** 5.
 *   **Especialidad Docente:** Sistemas y Aplicaciones Informáticas.
 *   **Perfil:** Profesor de Enseñanza Secundaria / Catedrático / Profesor Técnico de FP (a extinguir).

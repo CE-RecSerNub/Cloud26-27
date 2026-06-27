@@ -11,30 +11,29 @@ Este espacio está diseñado para albergar las programaciones, guías didáctica
 
 *   **Denominación:** Recursos y servicios en la nube.
 *   **Nivel:** Formación Profesional de Grado Superior (Máster de Formación Profesional).
-*   **Duración Total:** 700 horas.
+*   **Duración Total:** 720 horas (distribuidas en 30 semanas).
 *   **Créditos ECTS:** 41.
 *   **Familia Profesional:** Informática y Comunicaciones.
-*   **Referencia Normativa:** [Real Decreto 145/2026, de 25 de febrero](https://www.boe.es/eli/es/rd/2026/02/25/145) (BOE nº 53, de 28 de febrero de 2026).
+*   **Referencia Normativa:** [Real Decreto 145/2026, de 25 de febrero](https://www.boe.es/eli/es/rd/2026/02/25/145) (BOE nº 53, de 28 de febrero de 2026), adaptado al currículo de la Comunitat Valenciana.
 *   **Requisitos de Acceso:** 
     *   Técnico Superior en Administración de Sistemas Informáticos en Red (**ASIR**).
     *   Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (**DAM**).
     *   Técnico Superior en Desarrollo de Aplicaciones Web (**DAW**).
-    *   Técnico Superior en Sistemas de Telecomunicaciones e Informáticos (**STI**).
-    *   *Otros títulos habilitados por el Real Decreto (Fabricación Mecánica, Automatización y Robótica, etc.).*
+    *   *Otros títulos habilitados por la Conselleria d'Educació.*
 
 ---
 
-## 🗺️ Estructura del Plan de Estudios (Currículo Básico)
+## 🗺️ Estructura del Plan de Estudios (Comunitat Valenciana)
 
-El curso de especialización consta de **5 módulos profesionales** con una duración y carga de créditos específicos. A continuación se presentan los enlaces a las guías didácticas completas y estructuradas de cada uno:
+El curso de especialización consta de **5 módulos profesionales** con la distribución horaria oficial de la Comunidad Valenciana:
 
 | Código | Módulo Profesional | Duración | ECTS | Especialidad Docente |
 | :---: | :--- | :---: | :---: | :--- |
-| **5160** | 🔗 [Fundamentos y configuración inicial de servicios en la nube](./5160-fundamentos-servicios-nube/README.md) | 70 h | 8 | Sistemas y Aplicaciones Informáticas |
-| **5161** | 🔗 [Administración de recursos de computación en la nube](./5161-computacion-nube/README.md) | 70 h | 8 | Sistemas y Aplicaciones Informáticas |
-| **5162** | 🔗 [Administración de bases de datos y almacenamiento en la nube](./5162-bd-almacenamiento-nube/README.md) | 100 h | 12 | Informática |
-| **5163** | 🔗 [Administración de redes en la nube](./5163-redes-nube/README.md) | 70 h | 8 | Informática |
-| **5164** | 🔗 [Despliegue de servicios administrados en la nube](./5164-servicios-administrados/README.md) | 40 h | 5 | Sistemas y Aplicaciones Informáticas |
+| **5160** | 🔗 [Fundamentos y configuración inicial de servicios en la nube](./5160-fundamentos-servicios-nube/README.md) | 130 h (5h/sem) | 8 | Sistemas y Aplicaciones Informáticas |
+| **5161** | 🔗 [Administración de recursos de computación en la nube](./5161-computacion-nube/README.md) | 180 h (6h/sem) | 8 | Sistemas y Aplicaciones Informáticas |
+| **5162** | 🔗 [Administración de bases de datos y almacenamiento en la nube](./5162-bd-almacenamiento-nube/README.md) | 150 h (5h/sem) | 12 | Informática |
+| **5163** | 🔗 [Administración de redes en la nube](./5163-redes-nube/README.md) | 150 h (5h/sem) | 8 | Informática |
+| **5164** | 🔗 [Despliegue de servicios administrados en la nube](./5164-servicios-administrados/README.md) | 90 h (3h/sem) | 5 | Sistemas y Aplicaciones Informáticas |
 
 ---
 

@@ -1,5 +1,5 @@
 # Guía Didáctica: Administración de Recursos de Computación en la Nube
-## Código: 5161 | Carga Horaria: 70 horas | Créditos: 8 ECTS
+## Código: 5161 | Carga Horaria: 180 horas | Créditos: 8 ECTS
 
 ---
 
@@ -7,7 +7,7 @@
 
 *   **Módulo Profesional:** Administración de recursos de computación en la nube.
 *   **Código:** 5161.
-*   **Duración:** 70 horas.
+*   **Duración:** 180 horas.
 *   **ECTS:** 8.
 *   **Especialidad Docente:** Sistemas y Aplicaciones Informáticas.
 *   **Perfil:** Profesor de Enseñanza Secundaria / Catedrático / Profesor Técnico de FP (a extinguir).
