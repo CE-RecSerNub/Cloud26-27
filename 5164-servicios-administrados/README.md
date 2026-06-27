@@ -51,6 +51,13 @@ La adopción de la nube alcanza su madurez cuando se deja de gestionar la infrae
 *   **e)** Se han documentado las tareas de operación, actualización de versiones, monitorización de logs y borrado de la solución.
 *   **f)** Se han registrado y documentado las credenciales finales de configuración, URLs de acceso y configuraciones de seguridad.
 
+### RA5. Configura un entorno para el despliegue de recursos, administrando las cuotas de uso y habilitando las interfaces de programación de aplicaciones (API) requeridas según el uso previsto.
+*   **a)** Se han planificado las cuotas necesarias para el funcionamiento del despliegue planeado.
+*   **b)** Se han respetado los límites predeterminados por el proveedor para evitar sorpresas de coste o bloqueos operativos.
+*   **c)** Se han configurado y monitorizado las cuotas de despliegue de recursos e invocaciones a APIs.
+*   **d)** Se han solicitado incrementos o reducciones de cuota al proveedor de la nube según los requisitos.
+*   **e)** Se han habilitado las API específicas de cada servicio (por ejemplo, Compute Engine API, EC2 API) y deshabilitado los servicios inactivos por seguridad.
+
 ---
 
 ## 3. Recursos Didácticos Recomendados
@@ -76,3 +83,4 @@ La adopción de la nube alcanza su madurez cuando se deja de gestionar la infrae
 | **RA2. Mensajería Asíncrona** | Configura colas sin permisos, perdiendo mensajes o permitiendo accesos no autorizados. | Aprovisiona una cola sencilla y envía mensajes de prueba desde la consola del proveedor cloud. | Configura temas, suscripciones filtradas y colas con políticas de reintento y Dead Letter Queue (DLQ) para mensajes fallidos. | Diseña e integra arquitecturas orientadas a eventos desacopladas con colas, monitorizando tiempos de entrega y latencias. |
 | **RA3. Trabajos por Lotes (Batch)** | Ejecuta scripts de larga duración en VMs estándar sin control de fallos ni programador. | Crea un trabajo por lotes simple de ejecución manual a partir de una plantilla provista. | Configura y planifica trabajos Batch cronometrados que se ejecutan sobre contenedores efímeros y monitoriza logs de salida. | Implementa sistemas complejos de procesamiento por lotes que escalan dinámicamente nodos en función del volumen de tareas y alertas de fallos. |
 | **RA4. Marketplace y Terceros** | Despliega soluciones sin revisar costes ni configurar seguridad, dejando accesos inseguros. | Selecciona y despliega una aplicación del Marketplace (ej. Wordpress) siguiendo un tutorial básico. | Despliega una solución del Marketplace configurando subredes privadas, llaves SSH y documenta accesos y URLs de soporte. | Evalúa opciones del Marketplace bajo costes y licencias (BYOL), gestiona el ciclo de vida (updates) y asegura accesos integrando SSL e IAM. |
+| **RA5. Cuotas y APIs** | Sufre errores de bloqueo por cuotas excedidas y es incapaz de activar las APIs correctas. | Activa o desactiva APIs siguiendo instrucciones específicas de la práctica. | Planifica y solicita incrementos de cuotas con antelación y restringe APIs innecesarias para reducir superficie de ataque. | Automatiza la monitorización de límites de cuotas de las APIs y configura alertas proactivas ante la proximidad de límites. |

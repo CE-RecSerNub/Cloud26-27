@@ -82,14 +82,6 @@ Este módulo constituye el pilar fundamental del Curso de Especialización. Intr
 *   **d)** Se han establecido previsiones de gastos según las métricas proyectadas (almacenamiento, transferencia, computación).
 *   **e)** Se han configurado alertas de presupuesto (Budgets), canales de notificación (correo, Slack) y/o acciones automatizadas en respuesta a umbrales superados.
 *   **f)** Se han analizado los costes reales diarios o mensuales utilizando consolas analíticas de facturación (Cost Explorer o similares).
-
-### RA9. Configura un entorno para el posterior despliegue de recursos, administrando las cuotas de uso y habilitando las interfaces de programación de aplicaciones (API) requeridas según el uso previsto.
-*   **a)** Se han planificado las cuotas necesarias para el funcionamiento del despliegue planeado.
-*   **b)** Se han respetado los límites predeterminados por el proveedor para evitar sorpresas de coste o bloqueos operativos.
-*   **c)** Se han configurado y monitorizado las cuotas de despliegue de recursos e invocaciones a APIs.
-*   **d)** Se han solicitado incrementos o reducciones de cuota al proveedor de la nube según los requisitos.
-*   **e)** Se han habilitado las API específicas de cada servicio (por ejemplo, Compute Engine API, EC2 API) y deshabilitado los servicios inactivos por seguridad.
-
 ---
 
 ## 3. Recursos Didácticos Recomendados
@@ -109,7 +101,7 @@ Este módulo constituye el pilar fundamental del Curso de Especialización. Intr
 
 ## 4. Rúbrica de Evaluación por Niveles de Rendimiento
 
-A continuación, se detalla la rúbrica de calificación para cada Resultado de Aprendizaje. La ponderación de cada RA se ajustará en la programación del departamento (se sugiere un reparto equitativo del ~11% por cada RA).
+A continuación, se detalla la rúbrica de calificación para cada Resultado de Aprendizaje. La ponderación de cada RA se ajustará en la programación del departamento (se sugiere un reparto equitativo del 12.5% por cada RA).
 
 | RA | Insuficiente (1-4) | Suficiente (5) | Notable (6-8) | Sobresaliente (9-10) |
 | :--- | :--- | :--- | :--- | :--- |
@@ -121,4 +113,3 @@ A continuación, se detalla la rúbrica de calificación para cada Resultado de 
 | **RA6. IAM y Seguridad** | Asigna credenciales de administrador global a programas o usuarios sin ningún control. | Crea usuarios de forma manual en el directorio y les asigna roles básicos predefinidos. | Implementa MFA, políticas de contraseña y gestiona cuentas de servicio limitadas bajo el principio de menor privilegio. | Configura federaciones de identidad externas, implementa políticas avanzadas JIT y asegura contraseñas mediante Key Vaults. |
 | **RA7. Resp. Compartida** | Asume que la seguridad del dato es responsabilidad única del proveedor cloud. | Conoce de forma teórica la diferencia entre la seguridad de la nube y en la nube. | Identifica correctamente los componentes a proteger por el cliente en servicios IaaS y PaaS. | Aplica controles específicos, auditoría y hardening en el SO huésped de acuerdo con el mapa exacto de responsabilidades. |
 | **RA8. Facturación y Costes** | Genera gastos imprevistos y no sabe cómo consultar la factura o crear presupuestos. | Consulta la factura y crea presupuestos con alertas básicas de manera guiada. | Realiza estimaciones de costes con calculadoras oficiales, etiqueta recursos y configura alertas de umbral automatizadas. | Optimiza costes mediante análisis en Cost Explorer, detecta recursos redundantes y propone estrategias de reserva/ahorro. |
-| **RA9. Cuotas y APIs** | Sufre errores de bloqueo por cuotas excedidas y es incapaz de activar las APIs correctas. | Activa o desactiva APIs siguiendo instrucciones específicas de la práctica. | Planifica y solicita incrementos de cuotas con antelación y restringe APIs innecesarias para reducir superficie de ataque. | Automatiza la monitorización de límites de cuotas de las APIs y configura alertas proactivas ante la proximidad de límites. |
