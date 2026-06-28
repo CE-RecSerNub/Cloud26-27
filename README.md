@@ -34,10 +34,10 @@ El curso de especialización consta de **5 módulos profesionales** con la distr
 | Código | Módulo Profesional | Duración | ECTS | Especialidad Docente |
 | :---: | :--- | :---: | :---: | :--- |
 | **5160** | 🔗 [Fundamentos y configuración inicial de servicios en la nube](./5160-fundamentos-servicios-nube/README.md) | 120 h (4h/sem)* | 8 | Sistemas y Aplicaciones Informáticas |
-| **5161** | 🔗 [Administración de recursos de computación en la nube](./5161-computacion-nube/README.md) | 180 h (6h/sem) | 8 | Sistemas y Aplicaciones Informáticas |
+| **5161** | 🔗 [Administración de recursos de computación en la nube](./5161-administracion-nube/README.md) | 180 h (6h/sem) | 8 | Sistemas y Aplicaciones Informáticas |
 | **5162** | 🔗 [Administración de bases de datos y almacenamiento en la nube](./5162-bd-almacenamiento-nube/README.md) | 150 h (5h/sem) | 12 | Informática |
 | **5163** | 🔗 [Administración de redes en la nube](./5163-redes-nube/README.md) | 150 h (5h/sem) | 8 | Informática |
-| **5164** | 🔗 [Despliegue de servicios administrados en la nube](./5164-servicios-administrados/README.md) | 120 h (4h/sem)* | 5 | Sistemas y Aplicaciones Informáticas |
+| **5164** | 🔗 [Despliegue de servicios administrados en la nube](./5164-despliegue-nube/README.md) | 120 h (4h/sem)* | 5 | Sistemas y Aplicaciones Informáticas |
 
 *\* Distribución horaria propia adaptada por el IES Poeta Paco Mollá (4h/semana en ambos módulos).*
 
@@ -70,12 +70,12 @@ CloudRepo26-27/
 ├── README.md                              <-- Este archivo
 ├── 5160-fundamentos-servicios-nube/
 │   └── README.md                          <-- Guía Didáctica 5160
-├── 5161-computacion-nube/
+├── 5161-administracion-nube/
 │   └── README.md                          <-- Guía Didáctica 5161
 ├── 5162-bd-almacenamiento-nube/
 │   └── README.md                          <-- Guía Didáctica 5162
 ├── 5163-redes-nube/
 │   └── README.md                          <-- Guía Didáctica 5163
-└── 5164-servicios-administrados/
+└── 5164-despliegue-nube/
     └── README.md                          <-- Guía Didáctica 5164
 ```
